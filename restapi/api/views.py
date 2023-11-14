@@ -7,6 +7,7 @@ from .Serializers import namese
 def hello(request):
     return HttpResponse("hello")
 def api(request):
-    data1=name.objects.all()
-    serial=namese(data1,many=True)
+    
+    names=name.objects.all()
+    serial=namese(names,many=True)
     return JsonResponse(serial.data,safe=False)
