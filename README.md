@@ -11,7 +11,7 @@ Welcome to the Django REST API Example App repository! This project serves as an
 - **Pagination and Filtering:** Integration of pagination and filtering capabilities for handling large datasets.
 - **Testing:** Includes comprehensive test cases for API endpoints to ensure reliability and functionality.
 - **Documentation:** Comprehensive API documentation powered by Django REST Framework's built-in tools like Swagger or Redoc.
-
+  
 ## Installation and Usage
 
 To set up and run the project locally, follow these steps:
